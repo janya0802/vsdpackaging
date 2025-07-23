@@ -1,4 +1,4 @@
-# Module 1 Packaging Evolution: From Basic 3D Integration
+# Module 1 -  Packaging Evolution: From Basic 3D Integration
 
 ## 📦 Lecture 0: Introduction to Semiconductor Packaging & Industry Overview
 
@@ -38,7 +38,8 @@ Semiconductor packaging is the **final stage of semiconductor manufacturing**, w
 
 
 ### 🖼️ BGA Diagram:
-<img width="789" height="361" alt="image" src="https://github.com/user-attachments/assets/86b9f7cc-5a64-4647-b3e8-a80e18e45a04" />
+<img width="310" height="413" alt="image" src="https://github.com/user-attachments/assets/37836370-7b1e-49bd-83e9-db9d56c4f867" />
+
 
 
 
