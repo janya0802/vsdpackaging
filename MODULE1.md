@@ -113,6 +113,7 @@ The complete semiconductor manufacturing process generally flows as:
 # 📦 Lecture 1 :  Overview of Chip-to-Board Packaging
 
 ## 🔁 1. VLSI / Silicon Lifecycle
+
 <img width="542" height="497" alt="image" src="https://github.com/user-attachments/assets/dfd62b98-c445-467c-8965-16ea717dba51" />
 
 The lifecycle of a VLSI (Very Large Scale Integration) chip includes:
@@ -143,7 +144,8 @@ Chip
 
 ---
 
-## ✅ 3. How to Choose the Right Package?  <img width="546" height="580" alt="image" src="https://github.com/user-attachments/assets/2115cae8-4589-4b08-9cf9-614e0021856b" />
+## ✅ 3. How to Choose the Right Package?  
+<img width="546" height="580" alt="image" src="https://github.com/user-attachments/assets/2115cae8-4589-4b08-9cf9-614e0021856b" />
 
 Key factors when selecting a package:
 
@@ -224,6 +226,7 @@ Key factors when selecting a package:
 ---
 
 ## 📦 5. Package Types Overview
+
 <img width="1283" height="345" alt="image" src="https://github.com/user-attachments/assets/1749aba5-8200-4f39-959b-8935f3d4bb2e" />
 
 ### 🛠️ Through-Hole Mount (THM)
@@ -250,6 +253,11 @@ Key factors when selecting a package:
 | **PoP**   | Package-on-Package – Logic + memory stack.       |
 | **MCM**   | Multi-Chip Module – Multiple dies inside one.    |
 | **CoWoS** | Chip-on-Wafer-on-Substrate – Advanced 2.5D.      |
+
+## 📝 Summary
+This module introduced the foundational concepts of VLSI packaging, tracing the journey from silicon design to system-level integration. It emphasized how selecting the right package is a trade-off between performance, thermal efficiency, form factor, cost, and reliability. A deeper look into packaging structures and types (THM & SMT) provided a holistic view of how dies are protected, connected, and integrated into end systems. These fundamentals are essential before diving into advanced topics like multi-die packaging, interposers, or 3D ICs.
+
+
 
 
 
