@@ -1,11 +1,5 @@
 # 🗂️ Module 1 -  Packaging Evolution: From Basic 3D Integration
 
-
-
-## 📦 Lecture 0: Introduction to Semiconductor Packaging & Industry Overview
-
----
-
 ## 🔍 What is Semiconductor Packaging?
 
 Semiconductor packaging is the **final stage of semiconductor manufacturing**, where the silicon die is encased in a protective housing and connected to the external environment.
@@ -110,7 +104,6 @@ The complete semiconductor manufacturing process generally flows as:
 
 ---
 
-# 📦 Lecture 1 :  Understanding Package Requirements And Foundational Package Types
 
 ## 🔁 1. VLSI / Silicon Lifecycle
 
