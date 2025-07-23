@@ -303,9 +303,10 @@ Used for multi-chip and high-density systems, offering better routing and perfor
 | **2.3D**       | Interposer-less integration; some advanced stacking or side-by-side packaging. |
 | **2.5D**       | Dies mounted on silicon interposer with TSVs; high bandwidth and density.      |
 
+##### 👉 Example of 2.5D – Chip-on-Wafer Substrate (CoWoS): This method integrates multiple chips (like logic and HBM) on a silicon interposer placed on a wafer substrate. It offers ultra-high bandwidth, compact footprint, and power efficiency — ideal for AI and data center applications.
 ---
 
-## 🧠 Summary
+### 🧠 Sum up 
 
 * **Carrier** holds and supports the die.
 * **Interconnection** ensures electrical communication.
