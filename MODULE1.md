@@ -1,8 +1,8 @@
-# Module 1 -  Packaging Evolution: From Basic 3D Integration
+# 🗂️ Module 1 -  Packaging Evolution: From Basic 3D Integration
 
 
 
-## 📦 Lecture 0: Introduction to Semiconductor Packaging & Industry Overview
+# 📦 Lecture 0: Introduction to Semiconductor Packaging & Industry Overview
 
 ---
 
