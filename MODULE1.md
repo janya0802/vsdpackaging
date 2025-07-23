@@ -110,7 +110,7 @@ The complete semiconductor manufacturing process generally flows as:
 
 ---
 
-# 📦 Lecture 1 :  Overview of Chip-to-Board Packaging
+# 📦 Lecture 1 :  Understanding Package Requirements And Foundational Package Types
 
 ## 🔁 1. VLSI / Silicon Lifecycle
 
