@@ -94,13 +94,6 @@ The complete semiconductor manufacturing process generally flows as:
 - Texas Instruments (TI)
 - STMicroelectronics
 
----
-
-## ✍️ Summary
-
-- Semiconductor packaging is essential to protect and enable die functionality.
-- BGA is a widely used packaging type due to its efficiency and compact form.
-- The industry ecosystem includes fabless companies, foundries, OSATs, and IDMs – all playing critical roles in the chip supply chain.
 
 ---
 
@@ -251,8 +244,6 @@ Key factors when selecting a package:
 | **MCM**   | Multi-Chip Module – Multiple dies inside one.    |
 | **CoWoS** | Chip-on-Wafer-on-Substrate – Advanced 2.5D.      |
 
-## 📝 Summary
-This module introduced the foundational concepts of VLSI packaging, tracing the journey from silicon design to system-level integration. It emphasized how selecting the right package is a trade-off between performance, thermal efficiency, form factor, cost, and reliability. A deeper look into packaging structures and types (THM & SMT) provided a holistic view of how dies are protected, connected, and integrated into end systems. These fundamentals are essential before diving into advanced topics like multi-die packaging, interposers, or 3D ICs.
 
 
 
