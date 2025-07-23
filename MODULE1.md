@@ -1,4 +1,6 @@
-# 📦 Lecture 0: Introduction to Semiconductor Packaging & Industry Overview
+# Module 1 Packaging Evolution: From Basic 3D Integration
+
+## 📦 Lecture 0: Introduction to Semiconductor Packaging & Industry Overview
 
 ---
 
@@ -23,6 +25,9 @@ Semiconductor packaging is the **final stage of semiconductor manufacturing**, w
   - Wires
   - Solder balls (as in BGA)
 - Allows stacking or connecting multiple dies in 2.5D/3D packages.
+
+<img width="748" height="942" alt="image" src="https://github.com/user-attachments/assets/c29590b9-036c-4ac6-ab72-84e2125ba0bc" />
+
 
 ---
 
