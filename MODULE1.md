@@ -114,7 +114,8 @@ The complete semiconductor manufacturing process generally flows as:
 
 ## 🔁 1. VLSI / Silicon Lifecycle
 
-<img width="542" height="497" alt="image" src="https://github.com/user-attachments/assets/dfd62b98-c445-467c-8965-16ea717dba51" />
+<img width="1442" height="1262" alt="image" src="https://github.com/user-attachments/assets/1445b500-8cef-4616-a8a6-c3954386614d" />
+
 
 The lifecycle of a VLSI (Very Large Scale Integration) chip includes:
 * **Product Requirements**: Define specs based on system use.
