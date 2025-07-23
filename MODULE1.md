@@ -112,7 +112,7 @@ The complete semiconductor manufacturing process generally flows as:
 
 # 📦 Lecture 1 :  Overview of Chip-to-Board Packaging
 
-### 🔁 1. VLSI / Silicon Lifecycle
+## 🔁 1. VLSI / Silicon Lifecycle
 
 The lifecycle of a VLSI (Very Large Scale Integration) chip includes:
 * **Product Requirements**: Define specs based on system use.
@@ -126,7 +126,7 @@ The lifecycle of a VLSI (Very Large Scale Integration) chip includes:
 
 ---
 
-### 🧱 2. Product Requirements: Chip, Package, and Board
+## 🧱 2. Product Requirements: Chip, Package, and Board
 
 An electronic system consists of:
 
@@ -143,43 +143,43 @@ Chip
 
 ---
 
-### ✅ 3. How to Choose the Right Package?
+## ✅ 3. How to Choose the Right Package?
 
 Key factors when selecting a package:
 
-#### 🧭 Application
+### 🧭 Application
 
 * **Logic Devices**: CPUs, GPUs → High-speed BGAs.
 * **Memory Devices**: SRAM, DRAM → CSPs, PoP.
 * **Power Devices**: MOSFETs → TO-220, D2PAK.
 * **RF/Analog**: Use low-inductance packages.
 
-#### 📐 Form Factor
+### 📐 Form Factor
 
 * Compact gadgets → WLCSP, PoP.
 * Large-scale systems → FCBGA, LGA.
 * Wearables → Ultra-thin CSPs.
 
-#### 🛡️ Reliability and Durability
+### 🛡️ Reliability and Durability
 
 * Harsh conditions → Epoxy molding, AEC-Q100.
 * Moisture-sensitive → MSL-rated packaging.
 * Automotive/Aerospace → High-stress certified packaging.
 
-#### 💰 Cost
+### 💰 Cost
 
 * Materials: Ceramic > Organic.
 * Interconnects: Copper cheaper than gold.
 * Higher I/O count = Higher cost.
 * Multi-die packaging (e.g. MCM) adds assembly cost.
 
-#### 🌡️ Thermal Dissipation
+### 🌡️ Thermal Dissipation
 
 * Power-intensive chips → Add heatsinks, ePADs.
 * Flip-chip → Better thermal spreading.
 * Advanced: CoWoS, FCBGA.
 
-#### 🔌 I/O Pin Count
+### 🔌 I/O Pin Count
 
 * Low: QFN, SOIC.
 * Medium: QFP, LGA.
@@ -189,7 +189,7 @@ Key factors when selecting a package:
 
 ---
 
-### 🧩 4. Typical Packaging Structure 
+## 🧩 4. Typical Packaging Structure 
 
 
 +--------------------------+ ← Mold Compound
@@ -209,7 +209,7 @@ Key factors when selecting a package:
 +--------------------------+
 
 
-#### 📌 Key Components
+### 📌 Key Components
 
 * **Mold Compound**: Epoxy shell for protection.
 * **Interconnects**: Wirebond, flip-chip bumps, TSVs.
@@ -220,9 +220,9 @@ Key factors when selecting a package:
 
 ---
 
-### 📦 5. Package Types Overview
+## 📦 5. Package Types Overview
 
-#### 🛠️ Through-Hole Mount (THM)
+### 🛠️ Through-Hole Mount (THM)
 
 * Leads go through PCB holes.
 
@@ -232,7 +232,7 @@ Key factors when selecting a package:
 | **TO**  | Transistor Outline – Power transistors.    |
 | **PGA** | Pin Grid Array – CPUs, socketed design.    |
 
-#### 📎 Surface Mount Technology (SMT)
+### 📎 Surface Mount Technology (SMT)
 
 * Directly soldered to PCB surface.
 
