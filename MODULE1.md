@@ -115,15 +115,15 @@ The complete semiconductor manufacturing process generally flows as:
 ### 🔁 1. VLSI / Silicon Lifecycle
 
 The lifecycle of a VLSI (Very Large Scale Integration) chip includes:
-
 * **Product Requirements**: Define specs based on system use.
 * **Design**: Develop schematics, RTL, layout, verification.
-* **Manufacturing**: Fabricate wafers using photolithography.
+* **Manufacturing**: Fabricate wafers using photolithography.               
 * **Test**: Validate functionality using ATE.
 * **Debug/Bring-up**: Test first silicon with systems.
 * **In-field Operation**: Use in products like phones, vehicles, servers.
 
-  <img width="567" height="537" alt="e83e2231-a006-4f35-99ff-6f6d299e1d96" src="https://github.com/user-attachments/assets/ee55f739-caf1-42e6-8f87-3cd4758ab1f5" />
+<img width="200" height="189" alt="e83e2231-a006-4f35-99ff-6f6d299e1d96 (3)" src="https://github.com/user-attachments/assets/f7dd6f55-6204-44ed-b9ed-94426c0e5be0" />
+  
 
 
 ---
