@@ -100,7 +100,7 @@ The complete semiconductor manufacturing process generally flows as:
 
 ## 🔁 1. VLSI / Silicon Lifecycle
 
-![Uploading image.png…]()
+<img width="661" height="446" alt="image" src="https://github.com/user-attachments/assets/881375c6-6666-4df7-b74f-9afa1df1603a" />
 
 The lifecycle of a VLSI (Very Large Scale Integration) chip includes:
 * **Product Requirements**: Define specs based on system use.
@@ -186,22 +186,9 @@ Key factors when selecting a package:
 
 
 
+<img width="661" height="446" alt="image" src="https://github.com/user-attachments/assets/61000826-fd60-4bdd-a30b-a30f06e3b818" />
 
-+--------------------------+ ← Mold Compound
-|                          |
-|       Silicon Die        |
-|                          |
-+--------------------------+
-        │ Die Attach (Adhesive/Solder)
-        ▼
-+--------------------------+
-|   Package Substrate      |
-+--------------------------+
-        │ Balls / Pins / Pads
-        ▼
-+--------------------------+
-|   Printed Circuit Board  |
-+--------------------------+
+
 
 
 ### 📌 Key Components
@@ -245,10 +232,121 @@ Key factors when selecting a package:
 | **CoWoS** | Chip-on-Wafer-on-Substrate – Advanced 2.5D.      |
 
 
+📦 Module 2: Carrier & Interconnection Options in VLSI Packaging
 
+🚀 Overview
 
+This module dives into two critical aspects of semiconductor packaging:
 
+Carrier Options: The base that supports and connects the die to the outside world.
 
+Interconnection Options: How the die interfaces with the substrate or package.
 
+These are foundational to deciding the type of package best suited for an application.
 
+🧱 Carrier vs Interconnection: Definitions
+
+Term
+
+Description
+
+Carrier
+
+The physical support medium for the silicon die (e.g., leadframe, substrate).
+
+Interconnection
+
+Mechanism that connects the die to the package (e.g., wirebond, flip-chip).
+
+📘 Example: A microcontroller in a QFN package uses a leadframe carrier and wirebond interconnection.
+
+🧩 Carrier-Wise Package Classification
+
+Carrier type heavily influences the package form, size, cost, and reliability. Below are major carrier options and their subclasses.
+
+1️⃣ Leadframe-Based Packages
+
+Leadframes are metal frames that act as both structural support and electrical I/O paths.
+
+Type
+
+Description
+
+DIP
+
+Dual Inline Package. Traditional through-hole package. Easy to prototype.
+
+SOIC
+
+Small Outline IC. SMT version of DIP with gull-wing leads. Compact.
+
+QFP
+
+Quad Flat Package. Leads on all four sides. Medium I/O count.
+
+QFN
+
+Quad Flat No-lead. Leadless package with thermal pad. Excellent heat dissipation.
+
+2️⃣ Laminate Substrate-Based Packages
+
+Organic laminate substrates provide higher routing density and multilayer stacking.
+
+a. Wirebond PBGA (Plastic Ball Grid Array)
+
+Die is bonded using gold/aluminum wires to the substrate.
+
+Cheaper but introduces inductance due to long wires.
+
+b. Flip-Chip PBGA
+
+Die is flipped and connected using solder bumps.
+
+Offers shorter interconnects, better electrical and thermal performance.
+
+c. Standard PBGA
+
+A broader category including various BGA variants (wirebond or flip-chip based).
+
+Found in consumer electronics.
+
+d. LGA (Land Grid Array)
+
+Uses flat pads instead of balls or leads.
+
+Excellent for low-profile applications like laptops.
+
+e. FC-CSP (Flip-Chip Chip Scale Package)
+
+Die size ≈ package size.
+
+Highly compact, used in mobile devices and SoCs.
+
+🔬 Advanced Package Substrates
+
+These are high-end packages meant for HPC, networking, and AI workloads.
+
+Type
+
+Description
+
+2D
+
+Multiple dies placed side-by-side on a single substrate.
+
+2.1D
+
+2D + Passive silicon interposer for signal redistribution.
+
+2.3D
+
+Mix of 2D and stacked dies (hybrid approach).
+
+2.5D
+
+Dies placed on an active/passive interposer with TSVs. Enables high bandwidth.
+
+3D IC
+
+Full vertical die stacking with through-silicon vias (TSVs).
 
