@@ -122,7 +122,7 @@ The lifecycle of a VLSI (Very Large Scale Integration) chip includes:
 * **Debug/Bring-up**: Test first silicon with systems.
 * **In-field Operation**: Use in products like phones, vehicles, servers.
 
-<img width="200" height="189" alt="e83e2231-a006-4f35-99ff-6f6d299e1d96 (3)" src="https://github.com/user-attachments/assets/f7dd6f55-6204-44ed-b9ed-94426c0e5be0" />
+<a href="https://imageresizer.com/bulk-resize" target="_blank">Bulk Image Resizer</a>
   
 
 
