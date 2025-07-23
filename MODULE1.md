@@ -6,13 +6,8 @@
 
 Semiconductor packaging is the **final stage of semiconductor manufacturing**, where the silicon die is encased in a protective housing and connected to the external environment. It is essential for:
 
-- 📌 **Protection**: Safeguarding the fragile silicon die from:
-  - Corrosion
-  - Moisture
-  - Physical/mechanical damage
-- 🔗 **Connectivity**: Enabling electrical connections between:
-  - Die ↔️ PCB
-  - Die ↔️ Other dies (in multi-chip modules)
+- 📌 **Protection**
+- 🔗 **Connectivity**
 
 ---
 
@@ -34,28 +29,39 @@ Semiconductor packaging is the **final stage of semiconductor manufacturing**, w
 
 ---
 
-## 🧪 Case Study: BGA (Ball Grid Array) Package
+## 🧪 BGA (Ball Grid Array) Package
 
 ### 🔧 What is BGA?
 **Ball Grid Array (BGA)** is a type of surface-mount packaging used to permanently mount devices such as microprocessors.
 
-Instead of pins, a BGA uses an array of tiny solder balls arranged in a grid pattern on the bottom of the package.
 
-### 🖼️ BGA Diagram:
+### 🖼️ BGA Diagram: <img width="789" height="361" alt="image" src="https://github.com/user-attachments/assets/86b9f7cc-5a64-4647-b3e8-a80e18e45a04" />
 
-![BGA Package](https://upload.wikimedia.org/wikipedia/commons/7/7f/BGA_package_drawing.svg)
 
-<sup>Image source: Wikimedia Commons</sup>
 
-### 🧠 Advantages of BGA:
-- **Higher density**: More I/O connections in a small footprint.
-- **Better thermal & electrical performance**: Shorter path between the die and PCB.
-- **Reliability**: Lower risk of bent pins (common in pin-based packages).
 
-### ⚠️ Challenges:
-- Difficult to inspect solder joints (hidden under the package)
-- Requires X-ray or special inspection tools for quality control
+### 🧩 Component Breakdown
 
+| **Component**       | **Description**                                                                 |
+|---------------------|---------------------------------------------------------------------------------|
+| **Die**             | The silicon chip that contains the actual circuit (logic or memory).            |
+| **Die Attach**      | Adhesive or solder material that secures the die to the substrate.              |
+| **Wire Bond**       | Fine gold or aluminum wires that connect the die to the substrate's traces.     |
+| **Substrate**       | A PCB-like base that routes signals from the die to the solder balls.           |
+| **Molding Compound**| Protective resin that encapsulates the die and wire bonds to avoid damage.      |
+| **Trace**           | Copper lines within the substrate that route electrical signals.                |
+| **Solder Balls**    | Tiny spheres of solder that connect the package to the motherboard/PCB.         |
+
+
+### ⚙️ Working Principle
+
+- The **die** performs computation or memory tasks.
+- **Wire bonds** carry signals from the die to the **substrate**.
+- **Traces** inside the substrate route these signals to the **solder balls**.
+- The **solder balls**, arranged in a grid, connect the BGA to the **PCB** below.
+- **Molding compound** protects everything inside from mechanical and environmental damage.
+
+  
 ---
 
 ## 🏭 Packaging and Testing Industry Flow
@@ -99,5 +105,4 @@ The complete semiconductor manufacturing process generally flows as:
 
 ---
 
-🧠 _In the next lectures, we will dive deeper into packaging types, design methodologies, materials, and reliability considerations._
 
