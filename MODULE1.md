@@ -35,7 +35,8 @@ Semiconductor packaging is the **final stage of semiconductor manufacturing**, w
 **Ball Grid Array (BGA)** is a type of surface-mount packaging used to permanently mount devices such as microprocessors.
 
 
-### 🖼️ BGA Diagram: <img width="789" height="361" alt="image" src="https://github.com/user-attachments/assets/86b9f7cc-5a64-4647-b3e8-a80e18e45a04" />
+### 🖼️ BGA Diagram:
+<img width="789" height="361" alt="image" src="https://github.com/user-attachments/assets/86b9f7cc-5a64-4647-b3e8-a80e18e45a04" />
 
 
 
