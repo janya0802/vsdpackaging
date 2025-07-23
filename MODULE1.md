@@ -197,6 +197,8 @@ Key factors when selecting a package:
 
 
 
+
+
 +--------------------------+ ← Mold Compound
 |                          |
 |       Silicon Die        |
