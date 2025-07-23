@@ -122,9 +122,7 @@ The lifecycle of a VLSI (Very Large Scale Integration) chip includes:
 * **Debug/Bring-up**: Test first silicon with systems.
 * **In-field Operation**: Use in products like phones, vehicles, servers.
 
-<a href="https://imageresizer.com/bulk-resize" target="_blank">Bulk Image Resizer</a>
-  
-
+<img width="542" height="497" alt="image" src="https://github.com/user-attachments/assets/dfd62b98-c445-467c-8965-16ea717dba51" />
 
 ---
 
@@ -141,6 +139,7 @@ Chip
  └── Package
       └── Board
 
+<img width="424" height="568" alt="image" src="https://github.com/user-attachments/assets/a560bbc4-a093-46a5-a46d-e5ac246ea016" />
 
 ---
 
@@ -185,8 +184,8 @@ Key factors when selecting a package:
 * Low: QFN, SOIC.
 * Medium: QFP, LGA.
 * High: BGA, FCBGA, 2.5D interposer.
-
-> 📊 Tip: Balance performance, size, cost, and thermal needs.
+  
+<img width="546" height="580" alt="image" src="https://github.com/user-attachments/assets/2115cae8-4589-4b08-9cf9-614e0021856b" />
 
 ---
 
@@ -217,6 +216,7 @@ Key factors when selecting a package:
 * **Package Substrate**: RDL + trace routing, fan-out.
 * **BGA/LGA Leads**: Interface to board.
 * **PCB**: Hosts chip + passives + connectors.
+<img width="1087" height="368" alt="image" src="https://github.com/user-attachments/assets/d4576696-b90f-43d1-9eb4-8c5d8cddfd32" />
 
 ---
 
@@ -247,7 +247,8 @@ Key factors when selecting a package:
 | **MCM**   | Multi-Chip Module – Multiple dies inside one.    |
 | **CoWoS** | Chip-on-Wafer-on-Substrate – Advanced 2.5D.      |
 
----
+<img width="1283" height="345" alt="image" src="https://github.com/user-attachments/assets/1749aba5-8200-4f39-959b-8935f3d4bb2e" />
+
 
 
 
