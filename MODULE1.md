@@ -2,7 +2,7 @@
 
 
 
-# 📦 Lecture 0: Introduction to Semiconductor Packaging & Industry Overview
+## 📦 Lecture 0: Introduction to Semiconductor Packaging & Industry Overview
 
 ---
 
