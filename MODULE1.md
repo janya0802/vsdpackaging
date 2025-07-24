@@ -319,3 +319,42 @@ Laminate ➝ Higher complexity & pin count (PBGA, LGA, FC-CSP)
 Advanced ➝ High-density & performance (2.5D, Interposers, CoWoS)
 
 > 🔧 Choosing the right package depends on trade-offs between cost, thermal performance, electrical needs, and space.
+
+
+## 🔍 What is an Interposer?
+
+An **interposer** is an intermediate layer or substrate placed between the silicon die(s) and the package substrate or PCB. It acts as a routing interface that connects high-density I/O from multiple dies or components to the system board.
+
+---
+
+## 🧠 Why Use an Interposer?
+
+| Benefit | Description |
+|--------|-------------|
+| **High I/O Density** | Allows fine-pitch connections from dies to board. |
+| **Better Signal Integrity** | Shorter, well-controlled interconnects improve performance. |
+| **Die Integration** | Enables 2.5D packaging by hosting multiple dies (logic + memory). |
+| **Thermal Efficiency** | Helps distribute heat across the substrate evenly. |
+
+---
+
+## 🧱 Types of Interposers
+
+| Type | Material | Key Features |
+|------|----------|---------------|
+| **Silicon Interposer** | Silicon | High-density TSVs (Through-Silicon Vias), ideal for high-performance systems. |
+| **Organic Interposer** | Organic (e.g., Ajinomoto) | Lower cost, lower density — used in mid-tier applications. |
+| **Glass Interposer** | Glass | Excellent electrical performance, under research and niche use. |
+
+---
+
+## 🧩 Where is it Used?
+
+- **2.5D Packaging**: Interposer hosts multiple dies (e.g., logic + HBM DRAM).
+- **CoWoS (Chip-on-Wafer-on-Substrate)**: Popular use case by TSMC using silicon interposer.
+- **High-performance computing (HPC)**, **AI chips**, **networking ASICs**.
+
+---
+<img width="649" height="356" alt="image" src="https://github.com/user-attachments/assets/1206e01d-6292-4849-be7f-094d39cb6ed6" />
+
+
