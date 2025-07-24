@@ -199,6 +199,112 @@ The **Wafer Preparation Area** is a critical cleanroom zone where wafers undergo
 
 ---
 
+# 🧪  Wire Bond Packaging – Activities Inside the Cleanroom Area
+
+In semiconductor packaging, **Wire Bonding** is a key interconnect technology used to establish electrical connections between the die and the package substrate. This lecture walks us through the **step-by-step process** inside the cleanroom where wire bond packaging takes place.
+
+---
+
+<img width="550" height="272" alt="0fa22407-ae10-4e7c-9d64-888c4fadc5e1 (1)" src="https://github.com/user-attachments/assets/bddf2f56-0f3e-4726-a34e-b2db3b67feb8" />
+
+## 📌 Overview of the Wire Bond Packaging Flow:
+
+The overall process includes:
+
+1. **Die Attach**
+2. **Curing**
+3. **Wire Bonding**
+4. **Molding (Transfer Molding)**
+5. **Marking (Laser Marking)**
+6. **Singulation (Dicing)**
+
+---
+
+## 🧩 1. Die Attach
+
+> Die attach is the process of fixing the semiconductor die onto the package substrate using an adhesive.
+
+**Steps involved:**
+- **Epoxy Dispensing:** A precise amount of epoxy is dispensed on the package substrate.
+- **Chip Pick-up:** A robotic pick-up head selects the individual die from the wafer.
+- **Placement:** The die is placed carefully on the **Die Attach Film (DAF)** located on the substrate.
+
+This step is critical for ensuring physical stability and thermal/electrical conductivity between the chip and substrate.
+
+---
+
+## 🔥 2. Curing
+
+> After the die is attached, the epoxy must be **cured** (hardened) to provide a secure mechanical bond.
+
+- The assembly is passed through a **curing oven** or subjected to **infrared (IR) heating**.
+- Proper curing ensures the die doesn’t shift during further processing and maintains adhesion strength.
+
+---
+
+## ⚡ 3. Wire Bonding
+
+> Wire bonding forms the electrical connections between the **bond pads on the die** and the **bond fingers on the substrate** using fine gold or copper wires.
+
+### Types of Bonds:
+- **Ball Bonding (using gold wires)**
+- **Wedge Bonding (using aluminum wires)**
+
+### Key Steps:
+1. **Wire Tail Formation:** A fine wire is fed through a capillary tool.
+2. **EFO Spark (Electronic Flame-Off):** Creates a free air ball at the end of the wire.
+3. **Ball Bond Formation:** The ball is pressed onto the die pad using **ultrasound and heat** to form a **strong metallurgical bond**.
+4. **Wire Looping:** The capillary forms a wire loop as it moves to the substrate bond pad.
+5. **Crescent Bond:** Another bond is formed on the package substrate.
+6. **Wire Clipping:** The wire is cut to complete one connection.
+
+Wire bonding is repeated for all required pads with **high speed and precision**.
+
+---
+
+## 🧫 4. Molding (Transfer Molding)
+
+> After bonding, the entire die and wires are encapsulated in a **mold compound** to protect them from mechanical damage, moisture, and contaminants.
+
+- **Resin Flow:** A thermosetting resin is injected into a mold cavity using high pressure.
+- It flows around the die and wires, then solidifies on curing to form a **rigid protective shell**.
+
+This ensures long-term reliability and robustness of the packaged device.
+
+---
+
+## 🔍 5. Marking (Laser)
+
+> Each packaged chip is marked using **laser etching**.
+
+- **Laser Marking** is used to print product information, traceability codes, or logos.
+- Non-contact method, fast, and suitable for high-volume manufacturing.
+
+---
+
+## ✂️ 6. Singulation (Dicing)
+
+> This is the process of **separating individual units** from a molded array.
+
+- A **thin dicing blade** is used to cut along the pre-defined saw streets between units.
+- Ensures minimal chipping and clean edges for high-yield and reliable packaging.
+
+---
+
+## ✅ Final Output
+
+At the end of these steps, each individual die is:
+- Electrically connected to its substrate,
+- Protected by a mold compound,
+- Clearly marked for identification,
+- And separated into individual units ready for testing and shipment.
+
+---
+
+📌 **Note:** All these operations occur in a **controlled cleanroom environment** to avoid contamination and ensure the highest quality and reliability of the semiconductor package.
+
+---
+
 
 
 
