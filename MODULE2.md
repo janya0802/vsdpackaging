@@ -84,7 +84,118 @@ A typical ATMP unit includes various zones for different operations, all within 
 
 ---
 
+# Lecture 6: Activities Inside the Cleanroom Area (ATMP Flow)
+
 ---
+
+## 🏭 Wafer Preparation Area – ISO Class 7 Cleanroom
+
+The **Wafer Preparation Area** is a critical cleanroom zone where wafers undergo multiple preprocessing steps before packaging. These operations are carried out under strict contamination control to ensure product reliability and yield.
+
+### 📷 Visual Reference  
+![Cleanroom Activities](/path/to/cleanroom_activities.png)  
+*Activities performed inside the cleanroom area (Source: VSD Semiconductor Packaging Course)*
+
+---
+
+## 🧾 Step-by-Step Breakdown of Cleanroom Activities
+
+---
+
+### 1️⃣ Incoming Wafer Carrier
+- Wafers are delivered from the fab in specialized carriers known as **FOUPs (Front Opening Unified Pods)**.
+- These carriers protect wafers from particles, humidity, and ESD (Electrostatic Discharge).
+- Operators carefully open the FOUPs in laminar flow hoods inside ISO 7 environments to avoid contamination.
+
+---
+
+### 2️⃣ Wafer Inspection
+- Optical and automated inspection tools scan wafers for defects.
+- Checks are made for:
+  - Surface irregularities
+  - Contaminants or particles
+  - Wafer ID and lot tracking
+- Critical for filtering out damaged wafers before further processing.
+
+---
+
+### 3️⃣ Wafer Front Tape Lamination
+- A **protective UV-sensitive tape** is laminated on the front side of the wafer.
+- Purpose:
+  - Shields delicate circuitry from physical damage during grinding.
+  - Ensures structural integrity during handling.
+- This tape can later be removed using UV exposure.
+
+---
+
+### 4️⃣ Wafer Backside Grinding
+- Reduces wafer thickness (from ~700 µm to ~100 µm or less) to support thin-package applications.
+- Grinding process:
+  - Wafer is mounted face-down on a **grinding chuck**.
+  - A rotating **grinding wheel** removes material from the backside.
+  - Coolant and spindle force are precisely controlled to avoid cracks.
+
+---
+
+### 5️⃣ Tape Frame Mounting to Wafer Backside
+- Post-grinding, the thin wafer is mounted onto a **dicing tape** held by a ring frame.
+- Functions of the tape frame:
+  - Secures wafer during dicing.
+  - Maintains die alignment.
+  - Prevents wafer breakage due to low mechanical strength.
+
+---
+
+### 6️⃣ Two-Step Wafer Dicing  
+**(a) Laser Grooving**  
+- Laser scribing creates shallow pre-cut grooves along scribe lines.
+- Benefits:
+  - Reduces mechanical stress during blade dicing.
+  - Enhances die edge quality.
+
+**(b) Blade Dicing**  
+- A high-precision rotating diamond blade fully separates the individual dies.
+- Conducted under water to reduce heat and wash away debris.
+
+---
+
+### 7️⃣ Final Wafer Inspection & SPC (Statistical Process Control)
+- Post-dicing, each die and frame undergo:
+  - Visual inspection (manual + automated vision systems).
+  - Die count verification and placement accuracy.
+  - Crack and chipping detection.
+- **SPC Tools** monitor process metrics like blade wear, die yield, thickness, and more.
+- Data is analyzed for:
+  - Process drift detection
+  - Outlier identification
+  - Yield improvement
+
+---
+
+## ✅ Summary Table
+
+| Step | Process Stage                          | Objective                                        |
+|------|----------------------------------------|--------------------------------------------------|
+| 1    | Incoming Wafer Carrier                 | Safe wafer transport and controlled loading      |
+| 2    | Wafer Inspection                       | Identify defects and ensure quality              |
+| 3    | Wafer Front Tape Lamination           | Protect frontside circuitry during grinding      |
+| 4    | Wafer Backside Grinding               | Reduce wafer thickness for packaging             |
+| 5    | Tape Frame Mounting                   | Secure wafer for stable dicing                   |
+| 6    | Two-Step Wafer Dicing (Laser + Blade) | Isolate individual dies with minimal stress      |
+| 7    | Final Inspection & SPC                | Ensure die quality, process control, and yield   |
+
+---
+
+## 🧠 Key Takeaways
+
+- Cleanroom operations are essential to maintain **yield**, **reliability**, and **quality**.
+- Every step involves specialized tools, monitoring, and **strict contamination control**.
+- The combination of **laser + blade dicing** offers better die edge quality and minimizes cracks.
+- **SPC is the backbone** of quality assurance in semiconductor packaging.
+
+---
+
+
 
 
 
