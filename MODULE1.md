@@ -354,7 +354,8 @@ An **interposer** is an intermediate layer or substrate placed between the silic
 - **CoWoS (Chip-on-Wafer-on-Substrate)**: Popular use case by TSMC using silicon interposer.
 - **High-performance computing (HPC)**, **AI chips**, **networking ASICs**.
 
----
-<img width="649" height="356" alt="image" src="https://github.com/user-attachments/assets/1206e01d-6292-4849-be7f-094d39cb6ed6" />
+<img width="649" height="356" alt="image" src="https://github.com/user-attachments/assets/13ac57b3-ee65-403a-bfc3-f09755dcccce" />
+
+
 
 
