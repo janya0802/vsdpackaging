@@ -82,7 +82,10 @@ A typical ATMP unit includes various zones for different operations, all within 
 | Cleanrooms and automated testing ensure reliability and high yield. |
 | India is growing in ATMP space with Micron’s investment in Gujarat. |
 
+
+
 ---
+
 
 
 
