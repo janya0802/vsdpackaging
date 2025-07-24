@@ -94,10 +94,8 @@ The **Wafer Preparation Area** is a critical cleanroom zone where wafers undergo
 
 ### 📷 Visual Reference
 
-![Cleanroom Activities](/path/to/cleanroom_activities.png)  
-*Activities performed inside the cleanroom area (Source: VSD Semiconductor Packaging Course)*
+![Uploading 7f96d445-a7ca-43aa-b4c0-633809e7d09f (1) (2).png…]()
 
----
 
 ## 🧾 Step-by-Step Breakdown of Cleanroom Activities
 
