@@ -93,7 +93,6 @@ A typical ATMP unit includes various zones for different operations, all within 
 The **Wafer Preparation Area** is a critical cleanroom zone where wafers undergo multiple preprocessing steps before packaging. These operations are carried out under strict contamination control to ensure product reliability and yield.
 
 ### 📷 Visual Reference
-
 ![Uploading 7f96d445-a7ca-43aa-b4c0-633809e7d09f (1) (2).png…]()
 
 
