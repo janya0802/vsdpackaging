@@ -75,7 +75,6 @@ A typical ATMP unit includes various zones for different operations, all within 
 
 ## ✅  Key Takeaways 
 
-|---------------|
 | ATMP is a crucial stage connecting wafer fabrication to system integration. |
 | OSAT players and in-house units handle high-volume packaging and testing. |
 | Cleanrooms and automated testing ensure reliability and high yield. |
