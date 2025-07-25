@@ -135,7 +135,8 @@ Chip
 
 ## ✅ 3. How to Choose the Right Package?  
 
-<img width="546" height="580" alt="image" src="https://github.com/user-attachments/assets/2115cae8-4589-4b08-9cf9-614e0021856b" />
+<img width="250" height="266" alt="469961635-2115cae8-4589-4b08-9cf9-614e0021856b (1)" src="https://github.com/user-attachments/assets/b37a56ca-9d6a-470a-8bec-e5ebc4c276ba" />
+
 
 Key factors when selecting a package:
 
