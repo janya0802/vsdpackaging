@@ -1,5 +1,7 @@
 # 📦 Module 2 : From wafers to package - assembly and manufacturing essentials 
 
+# 🧪 Lecture 5- Setting The Stage - Supply Chain And Facilities
+
 ## 🔍 1. Overview of Semiconductor Supply Chain
 The semiconductor supply chain involves multiple critical stages, each contributing to the creation of the final electronic product. The entire process transforms a circuit idea into a packaged and tested IC ready to be deployed in commercial products.
 
