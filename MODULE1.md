@@ -184,13 +184,10 @@ Key factors when selecting a package:
 
 ## 🧩 4. Typical Packaging Structure 
 
-<img width="1087" height="368" alt="image" src="https://github.com/user-attachments/assets/d4576696-b90f-43d1-9eb4-8c5d8cddfd32" />
 
+<img width="550" height="186" alt="469962226-d4576696-b90f-43d1-9eb4-8c5d8cddfd32 (1)" src="https://github.com/user-attachments/assets/cfe92551-fd28-47ac-8a52-4580e1a4919f" />
 
-
-
-<img width="661" height="446" alt="image" src="https://github.com/user-attachments/assets/61000826-fd60-4bdd-a30b-a30f06e3b818" />
-
+<img width="250" height="169" alt="470018766-61000826-fd60-4bdd-a30b-a30f06e3b818 (1)" src="https://github.com/user-attachments/assets/40c5eacd-271c-4bb7-b319-0ca5584ad92a" />
 
 
 
