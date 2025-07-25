@@ -22,7 +22,8 @@ Semiconductor packaging is the **final stage of semiconductor manufacturing**, w
   - Solder balls (as in BGA)
 - Allows stacking or connecting multiple dies in 2.5D/3D packages.
   
-<img width="310" height="413" alt="image" src="https://github.com/user-attachments/assets/37836370-7b1e-49bd-83e9-db9d56c4f867" />
+<img width="200" height="266" alt="469929891-37836370-7b1e-49bd-83e9-db9d56c4f867 (1)" src="https://github.com/user-attachments/assets/992bdfd3-753f-41a4-86a9-10ab78830692" />
+
 
 
 ---
