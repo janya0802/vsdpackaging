@@ -543,7 +543,8 @@ Below is a detailed explanation of each step involved in the WLP process:
 
 **🔍 Overwiew :**  
 Fan-Out WLP enables high-density, high-performance, and compact packaging of ICs by redistributing the IOs over a reconstituted wafer and avoiding the limitations of traditional package substrates. This process integrates advanced photolithography, molding, and metallization to support the packaging needs of modern-day electronics.
-
+ 
+---
 
 ## 📚 MODULE 2 SUMMARY  : ASSEMBLY AND MANUFACTURING ESSENTIALS
 
