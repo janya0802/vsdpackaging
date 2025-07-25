@@ -116,7 +116,8 @@ The lifecycle of a VLSI (Very Large Scale Integration) chip includes:
 
 ## 🧱 2. Product Requirements: Chip, Package, and Board 
 
-<img width="424" height="568" alt="image" src="https://github.com/user-attachments/assets/a560bbc4-a093-46a5-a46d-e5ac246ea016" />
+<img width="275" height="368" alt="469960983-a560bbc4-a093-46a5-a46d-e5ac246ea016 (3)" src="https://github.com/user-attachments/assets/81c203d2-a259-47a8-9e2e-13df5f9c145f" />
+
 
 An electronic system consists of:
 * **Chip (Die)**: Performs logic/power tasks; fabricated on silicon.
