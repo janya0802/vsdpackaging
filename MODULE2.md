@@ -305,6 +305,161 @@ At the end of these steps, each individual die is:
 
 ---
 
+# 🔁 Flip Chip Packaging – Mass Reflow and Thermo-Compression Flow
+
+**Flip Chip Packaging** is an advanced packaging technique where the die is flipped upside down, and **solder bumps** are used to connect the chip directly to the substrate. This enables high-density, high-performance, and compact interconnects, ideal for modern electronics.
+
+This lecture explores the **step-by-step cleanroom process** for flip chip packaging, including **bump formation, chip mounting, reflow, underfill, and molding**.
+
+---
+<img width="550" height="272" alt="a0799f23-209f-47c5-b700-e7ad4106c352 (1)" src="https://github.com/user-attachments/assets/0a88b855-ed0a-4869-9b73-945512cded8a" />
+
+
+
+## 📌 1. Bump Formation on Silicon (Si)
+
+> Bumps are tiny solder balls that form the electrical and mechanical connection between the silicon die and the substrate.
+
+### 🔹 Step-by-step bump formation:
+- **Solder Deposition:** Solder is deposited on the die bond pads.
+- **Before Reflow:** The solder appears as cylindrical deposits sitting on top of UBM (Under Bump Metallization).
+- **Reflow:** The entire wafer is heated. The solder melts and forms spherical bumps due to surface tension.
+- **After Reflow:** Rounded solder balls are formed and solidified in place.
+
+✅ **Result:** Bumps are ready for flip-chip mounting.
+
+---
+
+## 🔄 2. Flipping the Chip
+
+> The chip is flipped so that the bumps face downward and align with the bond pads on the package substrate.
+
+This "flip" gives the packaging its name — **Flip Chip** — and enables direct connection without wire bonding.
+
+---
+
+## 💧 3. Flux Dispensing
+
+> **Flux** is dispensed onto the substrate to clean and prepare the surface for solder bonding.
+
+- Flux removes oxides from the metal surfaces and improves solder wetting.
+- Ensures good mechanical and electrical connections during reflow.
+
+🧪 **Flux is applied precisely** over the bond pads on the substrate using dispensing tools.
+
+---
+
+## 📍 4. Chip Placement
+
+> The bumped chip is placed onto the substrate such that each bump aligns with its respective pad.
+
+- Done using **high-precision pick-and-place** tools.
+- Alignment is critical to ensure proper solder bonding.
+
+---
+
+## 🔥 5. Solder Reflow
+
+> The assembly is passed through a **reflow oven** to melt the solder bumps and form permanent bonds.
+
+- The solder melts and wets both the die pads and the substrate pads.
+- As it cools, a **solid metallurgical bond** forms at each bump location.
+
+This step is similar to the reflow process used in PCB manufacturing.
+
+---
+
+## 💨 6. Flux Cleansing
+
+> After reflow, **residual flux** must be removed using solvent spray.
+
+- Cleansing prevents corrosion or contamination of the solder joints.
+- Performed in a controlled environment using **chemically safe solvents**.
+
+---
+
+## 🧴 7. Underfill Dispensing
+
+> Underfill is an **epoxy resin** material that is dispensed to fill the gap between the chip and the substrate.
+
+### Why Underfill?
+- Improves **mechanical stability**.
+- Reduces **stress** on solder joints due to thermal expansion mismatch.
+- Enhances **moisture resistance** and **long-term reliability**.
+
+The underfill flows under the chip by **capillary action**.
+
+---
+
+## ♨️ 8. Underfill Cure
+
+> The underfill material is **cured using heat** to solidify it into a strong, supportive layer.
+
+- Curing ovens or hot plates are used.
+- Ensures the chip is rigidly held in place, minimizing mechanical stress.
+
+---
+
+## 🧱 9. Molding
+
+> The chip and underfill assembly are **encapsulated using a protective mold compound**.
+
+- Mold material is injected around the chip for mechanical and environmental protection.
+- Prevents damage from moisture, dust, or mechanical shock.
+
+---
+
+## ✍️ 10. Marking
+
+> Final packages are marked using **laser marking systems**.
+
+- Adds product identification, batch numbers, or branding.
+- Enables traceability during manufacturing and logistics.
+
+---
+
+## ⚙️ 11. Ball Mounting on the Substrate (BGA Balls)
+
+> **Ball Grid Array (BGA) balls** are added on the bottom side of the package for final PCB assembly.
+
+- The BGA balls provide interconnection between the package and the PCB.
+- The pattern and pitch depend on the device application.
+
+---
+
+## 🔥 12. Final Reflow After Ball Mounting
+
+> The BGA balls are reflowed onto the substrate to form the final interconnects.
+
+- This is similar to earlier solder reflow but now connects the **package to the PCB side**.
+- Ensures robust connection ready for system-level integration.
+
+---
+
+## ✅ Final Outcome
+
+After these steps, the **Flip Chip Package** is:
+- Electrically connected using **solder bumps**,
+- Mechanically stabilized with **underfill**,
+- Protected with **molding**, and
+- Ready for integration into PCBs using **BGA balls**.
+
+---
+
+### 📌 Advantages of Flip Chip Packaging:
+- Shorter electrical paths → **Better performance**
+- High I/O density
+- Excellent heat dissipation
+- Compact form factor
+
+---
+
+### 🧪 Flip Chip Summary Flow:
+
+```plaintext
+Bump Formation → Chip Flip → Flux Dispensing → Chip Placement → Solder Reflow →
+Flux Cleansing → Underfill → Underfill Cure → Molding → Marking →
+BGA Mounting → Final Reflow
 
 
 
