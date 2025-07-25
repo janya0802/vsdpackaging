@@ -545,7 +545,7 @@ Below is a detailed explanation of each step involved in the WLP process:
 Fan-Out WLP enables high-density, high-performance, and compact packaging of ICs by redistributing the IOs over a reconstituted wafer and avoiding the limitations of traditional package substrates. This process integrates advanced photolithography, molding, and metallization to support the packaging needs of modern-day electronics.
 
 
-## 📌 Summary of module 2 :
+## 📚 MODULE 2 SUMMARY  : ASSEMBLY AND MANUFACTURING ESSENTIALS
 
 Module 2 provides an in-depth understanding of the front-end wafer processes and transitions into advanced packaging techniques, emphasizing the practical workflows and cleanroom operations involved in semiconductor manufacturing. It begins by detailing activities inside the cleanroom area, where wafers are transported, inspected, laminated with protective tape, and undergo precise backside grinding. This is followed by critical steps like tape frame mounting, laser grooving, blade dicing, and concludes with inspection and Statistical Process Control (SPC) to ensure quality. The module then introduces the concept of Wafer Level Packaging (WLP), particularly focusing on fan-out WLP, where known good dies are reconstituted on a temporary carrier using molding techniques. Redistribution Layer (RDL) preparation is thoroughly covered, including dielectric coating, metal deposition, and patterning across multiple layers. The final steps involve solder ball attachment, laser marking, and singulation to yield individual packaged dies. Overall, this module bridges foundational wafer processing with cutting-edge packaging innovations, highlighting both the precision and complexity of semiconductor fabrication.
 
