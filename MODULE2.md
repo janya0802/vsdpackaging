@@ -199,7 +199,7 @@ The **Wafer Preparation Area** is a critical cleanroom zone where wafers undergo
 
 ---
 
-# 🧪  Wire Bond Packaging – Activities Inside the Cleanroom Area
+# 🧪 Lecture 7 -  Wire Bond Packaging – Activities Inside the Cleanroom Area
 
 In semiconductor packaging, **Wire Bonding** is a key interconnect technology used to establish electrical connections between the die and the package substrate. This lecture walks us through the **step-by-step process** inside the cleanroom where wire bond packaging takes place.
 
@@ -305,7 +305,7 @@ At the end of these steps, each individual die is:
 
 ---
 
-# 🔁 Flip Chip Packaging – Mass Reflow and Thermo-Compression Flow
+# 🔁 Lecture 8 - Flip Chip Packaging – Mass Reflow and Thermo-Compression Flow
 
 **Flip Chip Packaging** is an advanced packaging technique where the die is flipped upside down, and **solder bumps** are used to connect the chip directly to the substrate. This enables high-density, high-performance, and compact interconnects, ideal for modern electronics.
 
