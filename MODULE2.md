@@ -461,7 +461,90 @@ Bump Formation → Chip Flip → Flux Dispensing → Chip Placement → Solder R
 Flux Cleansing → Underfill → Underfill Cure → Molding → Marking →
 BGA Mounting → Final Reflow
 
+```
 
 
+# 📦 Lecture 9: Wafer Level Packaging (WLP)
+
+Wafer Level Packaging (WLP) is a crucial advancement in the semiconductor industry that enables packaging of the die at the wafer level itself, eliminating the need for conventional packaging after dicing. WLP is especially useful in mobile and compact electronic devices due to its small form factor, improved electrical performance, and reduced cost. The most prominent type of WLP is **Fan-Out Wafer Level Packaging (FOWLP)**.
+
+<img width="550" height="271" alt="e4c3f7bd-583f-4b86-9753-513576f67eee (1)" src="https://github.com/user-attachments/assets/b12366e5-a79a-4222-b570-4e55fb6f05e1" />
+
+
+Below is a detailed explanation of each step involved in the WLP process:
+
+---
+
+## 🌀 Reconstitution Process
+
+### 1. **Diced Wafer**
+- The wafer is diced to separate individual dies.
+- Only known good dies (KGDs), verified through prior testing, are selected for the packaging process.
+
+### 2. **Pick and Place Known Good Dies**
+- The KGDs are carefully picked and placed on a **temporary carrier**.
+- This carrier acts as a support platform during the initial steps of WLP.
+
+### 3. **Molding**
+- The placed dies are encapsulated in a molding compound, creating a solid rectangular panel.
+- This simulates the mechanical and thermal properties of a full wafer.
+- After molding, the carrier is removed to yield the **Reconstituted Wafer**.
+
+---
+
+## 🔁 RDL (Redistribution Layer) Preparation
+
+### 4. **Coating Dielectric and Metal**
+- A dielectric layer is coated on the surface of the reconstituted wafer.
+- Metal layers are deposited for electrical interconnections.
+
+### 5. **1st RDL Patterning**
+- The first layer of RDL is patterned using photolithography to form interconnect traces.
+
+### 6. **Dielectric Coating and Patterning**
+- Another dielectric layer is coated on top.
+- Vias (contact holes) are etched to connect to the previous RDL layer.
+
+### 7. **2nd and 3rd RDL Patterning**
+- Multiple RDL layers may be added depending on the complexity of the interconnect.
+- This helps in fan-out routing and improved IO density.
+
+---
+
+## ⚙️ Final Steps
+
+### 8. **Solder Ball Attach**
+- Solder balls are attached to the topmost RDL pads to create external connections (BGA: Ball Grid Array).
+- These serve as the final input/output terminals for the packaged die.
+
+### 9. **Laser Marking and Singulation**
+- The panel is marked using a laser with lot and die information.
+- The reconstituted wafer is then **singulated** (cut) into individual Fan-Out Packages.
+
+---
+
+## 📦 Final Product: Fan-Out Wafer Level Package (FOWLP)
+
+- Each die now has its own package with extended IOs and improved thermal/mechanical characteristics.
+- The final structure consists of:
+  - Solder Balls (external connections)
+  - Redistribution Layer (electrical routing)
+  - Encapsulation Mold Compound (EMC)
+  - The Chip (Die)
+
+---
+
+## 🎥 Reference: Video Explanation
+> A detailed video was shown during the lecture which helps visualize each step in the Fan-Out WLP process.
+
+---
+
+**🔍 Overwiew :**  
+Fan-Out WLP enables high-density, high-performance, and compact packaging of ICs by redistributing the IOs over a reconstituted wafer and avoiding the limitations of traditional package substrates. This process integrates advanced photolithography, molding, and metallization to support the packaging needs of modern-day electronics.
+
+
+## 📌 Summary of module 2 :
+
+Module 2 provides an in-depth understanding of the front-end wafer processes and transitions into advanced packaging techniques, emphasizing the practical workflows and cleanroom operations involved in semiconductor manufacturing. It begins by detailing activities inside the cleanroom area, where wafers are transported, inspected, laminated with protective tape, and undergo precise backside grinding. This is followed by critical steps like tape frame mounting, laser grooving, blade dicing, and concludes with inspection and Statistical Process Control (SPC) to ensure quality. The module then introduces the concept of Wafer Level Packaging (WLP), particularly focusing on fan-out WLP, where known good dies are reconstituted on a temporary carrier using molding techniques. Redistribution Layer (RDL) preparation is thoroughly covered, including dielectric coating, metal deposition, and patterning across multiple layers. The final steps involve solder ball attachment, laser marking, and singulation to yield individual packaged dies. Overall, this module bridges foundational wafer processing with cutting-edge packaging innovations, highlighting both the precision and complexity of semiconductor fabrication.
 
 
