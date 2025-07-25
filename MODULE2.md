@@ -89,7 +89,7 @@ A typical ATMP unit includes various zones for different operations, all within 
 
 
 
-# 🏭 Activities Inside the Cleanroom Area (ATMP Flow)
+# 🏭 Lecture 6 -  Activities Inside the Cleanroom Area (ATMP Flow)
 
 ---
 
