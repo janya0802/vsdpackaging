@@ -227,4 +227,64 @@ The visual model (as seen in the image) clearly shows:
 - Red boundary outlines representing the **air region and symmetry boundaries**.
 
 
+# 📦 Lecture 12: Material Definitions and Thermal Power Sources
+
+In this lecture, we explored how to work within the **Project Management bar** of ANSYS Icepak to define materials, thermal sources, and set up monitors for thermal simulations. This is a key step in analyzing the thermal performance of Flip Chip Ball Grid Array (FCBGA) packaging.
+<img width="252" height="285" alt="Screenshot 2025-07-27 041940" src="https://github.com/user-attachments/assets/0dea3ac8-d2d6-4899-86cc-74ab3ff36d24" />
+
+---
+
+## 🧰 Project Management Workflow
+
+### 🔹 1. Model Tab
+The **Model** tab in the project management bar helps in setting up the geometry, importing models, and configuring components such as die, underfill, and substrate. All design elements are prepared in this stage before applying thermal properties.
+
+---
+
+### 🔥 2. Thermal Conditions Tab
+<img width="500" height="397" alt="Screenshot 2025-07-27 042036" src="https://github.com/user-attachments/assets/a70b7df2-6d3d-4788-86f9-002ccd517b25" />
+
+In this tab, we define all power sources and boundary conditions for heat transfer simulation.
+
+#### 🧪 Power Source (Die)
+- The **source** refers to thermal power (in Watts) applied to specific components.
+- For this simulation, the **die** is assigned as the power source.
+- Power is applied directly on the die component to simulate heat generation during operation.
+
+#### 📦 Boundary Condition (Substrate)
+- The **substrate** is given a **source boundary condition**, which represents heat exchange conditions (like convection or conduction) on its surfaces.
+- This helps simulate realistic cooling or heating behavior of the substrate layer.
+
+---
+
+### 📍 3. Monitor Tab
+<img width="225" height="86" alt="Screenshot 2025-07-27 043625" src="https://github.com/user-attachments/assets/6ac59c71-d7f9-40c1-b9e6-18c94591935e" />
+<img width="250" height="116" alt="Screenshot 2025-07-27 042159" src="https://github.com/user-attachments/assets/78f8423e-2471-421d-957b-f47cd9949afc" />
+
+
+We use the **Monitor** tab to observe how temperature changes at critical locations in the package during simulation.
+
+#### 🔸 Point Monitor on Substrate
+- A **point monitor** is assigned to the substrate to track temperature variation over time or at steady state.
+- This helps us evaluate how well the substrate dissipates heat from the die.
+
+#### 🔸 Point Monitor on Die
+- Similarly, a **temperature monitor** is placed directly on the **die** to observe peak temperature due to the applied power source.
+- This helps in ensuring thermal safety and reliability of the die.
+
+#### 🔸 Point Monitor on Underfill
+- An additional monitor is assigned to the **underfill** region to track how heat spreads through this material.
+- The underfill plays a critical role in thermal conduction and mechanical stress absorption.
+
+---
+
+## ✅ Key Takeaways
+
+- Proper **thermal source definition** is crucial for accurate thermal simulations.
+- **Point monitors** help in tracking temperature across vital packaging materials.
+- This step bridges material modeling with thermal analysis, giving insight into how heat is generated and dissipated across the chip-package system.
+
+---
+
+
 
