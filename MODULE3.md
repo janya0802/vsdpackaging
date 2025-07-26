@@ -258,11 +258,9 @@ In "Project Manager" sub-window, expand Thermal section and open the "BGA1_die_s
 
 
 #### 📦 Boundary Condition (Substrate)
+- To add thermal boundary condition for the substrate, right click on "Flipchip_BGA1_substrate" under "Models -> Flipchip_BGA1_Group -> Solids" and assign a Thermal Source.
 - The **substrate** is given a **source boundary condition**, which represents heat exchange conditions (like convection or conduction) on its surfaces.
 - This helps simulate realistic cooling or heating behavior of the substrate layer.
-
-#### 🔸 To Add/ Assign Source Thermal Model for Substrate : 
-- To add thermal boundary condition for the substrate, right click on "Flipchip_BGA1_substrate" under "Models -> Flipchip_BGA1_Group -> Solids" and assign a Thermal Source.
 
 Set the thermal condition on the substrate to Fixed Temperatue and the temperature as Ambient.
 <img width="568" height="473" alt="image" src="https://github.com/user-attachments/assets/28252831-5c8f-461a-bb76-9bf87a9b2ab1" />
