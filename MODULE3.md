@@ -253,6 +253,7 @@ In this tab, we define all power sources and boundary conditions for heat transf
 - Power is applied directly on the die component to simulate heat generation during operation.
 
 In "Project Manager" sub-window, expand Thermal section and open the "BGA1_die_source" and configure the thermal condition as shown below:
+
 <img width="500" height="397" alt="Screenshot 2025-07-27 042036" src="https://github.com/user-attachments/assets/a70b7df2-6d3d-4788-86f9-002ccd517b25" />
 
 
