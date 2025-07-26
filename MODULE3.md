@@ -170,7 +170,7 @@ This lecture documents the complete design workflow of a **Flip Chip Ball Grid A
 
 ## 🧩 Final 3D Package Model Structure : 
 
-> After providing  all the required information , we will generate the package model . 
+>After providing  all the required information , we will generate the package model . 
 
 <img width="600" height="219" alt="Screenshot 2025-07-27 030647" src="https://github.com/user-attachments/assets/ed52985c-5629-4177-b7cc-df8a8db040b7" />
 <img width="250" height="113" alt="Screenshot 2025-07-27 030707" src="https://github.com/user-attachments/assets/0270d97e-7f8a-44f2-9503-2ccb0acaeaec" />
