@@ -242,7 +242,7 @@ The **Model** tab in the project management bar helps in setting up the geometry
 ---
 
 ### 🔥 2. Thermal Conditions Tab
-<img width="500" height="397" alt="Screenshot 2025-07-27 042036" src="https://github.com/user-attachments/assets/a70b7df2-6d3d-4788-86f9-002ccd517b25" />
+
 <img width="250" height="116" alt="Screenshot 2025-07-27 042159" src="https://github.com/user-attachments/assets/78f8423e-2471-421d-957b-f47cd9949afc" />
 
 In this tab, we define all power sources and boundary conditions for heat transfer simulation.
@@ -252,27 +252,39 @@ In this tab, we define all power sources and boundary conditions for heat transf
 - For this simulation, the **die** is assigned as the power source.
 - Power is applied directly on the die component to simulate heat generation during operation.
 
+In "Project Manager" sub-window, expand Thermal section and open the "BGA1_die_source" and configure the thermal condition as shown below:
+<img width="500" height="397" alt="Screenshot 2025-07-27 042036" src="https://github.com/user-attachments/assets/a70b7df2-6d3d-4788-86f9-002ccd517b25" />
+
+
 #### 📦 Boundary Condition (Substrate)
 - The **substrate** is given a **source boundary condition**, which represents heat exchange conditions (like convection or conduction) on its surfaces.
 - This helps simulate realistic cooling or heating behavior of the substrate layer.
 
----
+#### To Add/ Assign Source Thermal Model for Substrate
+To add thermal boundary condition for the substrate, right click on "Flipchip_BGA1_substrate" under "Models -> Flipchip_BGA1_Group -> Solids" and assign a Thermal Source.
+
+Set the thermal condition on the substrate to Fixed Temperatue and the temperature as Ambient.
+<img width="568" height="473" alt="image" src="https://github.com/user-attachments/assets/28252831-5c8f-461a-bb76-9bf87a9b2ab1" />
+
 
 ### 📍 3. Monitor Tab
 <img width="225" height="86" alt="Screenshot 2025-07-27 043625" src="https://github.com/user-attachments/assets/6ac59c71-d7f9-40c1-b9e6-18c94591935e" />
 
-
 We use the **Monitor** tab to observe how temperature changes at critical locations in the package during simulation.
 
 #### 🔸 Point Monitor on Substrate
+
+- To add a Thermal monitor to the substrate, right click on the "Flipchip_BGA1_substrate" under "Models -> Flipchip_BGA1_Group -> Solids" and choose "Assign Monitor -> Point"
 - A **point monitor** is assigned to the substrate to track temperature variation over time or at steady state.
 - This helps us evaluate how well the substrate dissipates heat from the die.
 
 #### 🔸 Point Monitor on Die
+
 - Similarly, a **temperature monitor** is placed directly on the **die** to observe peak temperature due to the applied power source.
 - This helps in ensuring thermal safety and reliability of the die.
 
 #### 🔸 Point Monitor on Underfill
+
 - An additional monitor is assigned to the **underfill** region to track how heat spreads through this material.
 - The underfill plays a critical role in thermal conduction and mechanical stress absorption.
 
