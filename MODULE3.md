@@ -263,6 +263,7 @@ In "Project Manager" sub-window, expand Thermal section and open the "BGA1_die_s
 - This helps simulate realistic cooling or heating behavior of the substrate layer.
 
 Set the thermal condition on the substrate to Fixed Temperatue and the temperature as Ambient.
+
 <img width="250" height="217" alt="Mod3 10" src="https://github.com/user-attachments/assets/7d75ffb9-9f43-4be0-b63f-bfea70fd3657" />
 
 
