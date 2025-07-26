@@ -243,6 +243,7 @@ The **Model** tab in the project management bar helps in setting up the geometry
 
 ### 🔥 2. Thermal Conditions Tab
 <img width="500" height="397" alt="Screenshot 2025-07-27 042036" src="https://github.com/user-attachments/assets/a70b7df2-6d3d-4788-86f9-002ccd517b25" />
+<img width="250" height="116" alt="Screenshot 2025-07-27 042159" src="https://github.com/user-attachments/assets/78f8423e-2471-421d-957b-f47cd9949afc" />
 
 In this tab, we define all power sources and boundary conditions for heat transfer simulation.
 
@@ -259,7 +260,6 @@ In this tab, we define all power sources and boundary conditions for heat transf
 
 ### 📍 3. Monitor Tab
 <img width="225" height="86" alt="Screenshot 2025-07-27 043625" src="https://github.com/user-attachments/assets/6ac59c71-d7f9-40c1-b9e6-18c94591935e" />
-<img width="250" height="116" alt="Screenshot 2025-07-27 042159" src="https://github.com/user-attachments/assets/78f8423e-2471-421d-957b-f47cd9949afc" />
 
 
 We use the **Monitor** tab to observe how temperature changes at critical locations in the package during simulation.
