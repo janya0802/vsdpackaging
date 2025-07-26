@@ -264,8 +264,7 @@ In "Project Manager" sub-window, expand Thermal section and open the "BGA1_die_s
 
 Set the thermal condition on the substrate to Fixed Temperatue and the temperature as Ambient.
 
-<img width="250" height="217" alt="Mod3 10" src="https://github.com/user-attachments/assets/7d75ffb9-9f43-4be0-b63f-bfea70fd3657" />
-
+<img width="278" height="241" alt="Mod3 10" src="https://github.com/user-attachments/assets/6f9f5094-022c-4d55-8bed-6b1d3317f9b0" />
 
 
 ### 📍 3. Monitor Tab
