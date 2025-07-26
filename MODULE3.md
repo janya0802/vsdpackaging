@@ -61,6 +61,168 @@ From the **Icepak → Tools** menu, we accessed a variety of toolkits and simula
 
 ---
 
+# 🗂️ Lecture 11 : Setting Up A Flip-Chip BGA Package
+
+This lecture documents the complete design workflow of a **Flip Chip Ball Grid Array (BGA)** package using Icepak inside Ansys Electronics Desktop Student Version.
+
+---
+
+## 🧩 Step-by-Step Model Setup
+
+---
+
+### 1️⃣ Package Dimensions
+
+- **Plane:** XY  
+- **Length × Width:** 15 mm × 15 mm  
+- **Thickness:** 1.6 mm  
+- **Symmetry:** Full  
+- **Units:** Millimeters  
+- **Model as 3D component:** Enabled  
+
+<img width="500" height="275" alt="Screenshot 2025-07-27 030306" src="https://github.com/user-attachments/assets/125a204f-218e-4a35-8c8c-eef12fa1905b" />
+
+---
+## 🧊 2. Die Configuration
+
+- **X Length:** 8.56 mm  
+- **Y Length:** 8.56 mm  
+- **Power:** Defined in watts (set based on simulation needs)  
+- **Source Type:** 2D Source  
+- **Material:** Si-Typical  
+- **Die Underfill:**  
+  - **Bump Size:** 0.01 mm  
+  - **Material:** Flipchip_underfill  
+- **Heatsink:** Not included  
+- **3D Component Creation:** Enabled
+
+> The die is placed centrally on the substrate and is the primary heat-generating region in the system. The underfill strengthens bump connections and improves thermal paths.
+
+<img width="500" height="273" alt="Screenshot 2025-07-27 030318 (2)" src="https://github.com/user-attachments/assets/64497c0b-f16d-44b1-a9d8-cd3b21b19627" />
+
+---
+
+### 3️⃣ Substrate Setup
+
+- **Total Thickness:** 0.36 mm (0.2 of total package thickness) 
+- **Number of Layers:** 2  
+- **Material:** Custom substrate (usually BT epoxy or FR-4)  
+- **Top Trace Coverage:** 55%  
+- **Bottom Trace Coverage:** 55%  
+- **Trace Thickness:** 0.033 mm  
+- **Trace Material:** Pure Copper (Cu-pure)  
+- **Die attach material:** Die_Attach_SAC305  
+- **Thermal vias:** 0  
+- **Via diameter:** 0.2 mm  
+- **Plating thickness:** 0.05 mm  
+
+
+<img width="500" height="269" alt="Screenshot 2025-07-27 030341 (1)" src="https://github.com/user-attachments/assets/79f6b243-1c77-4508-b320-718d6e08395d" />
+
+---
+
+### 4️⃣ Solder Ball Configuration
+
+- **Array Size:** 14 × 14  
+- **Type:** Full  
+- **Pitch (center-to-center spacing):** 1.0 mm  
+- **Ball Diameter:** 0.5 mm  
+- **Ball Height:** 0.5 mm  
+- **Material:** Pb50_Sn50 (50% Lead, 50% Tin alloy)
+
+<img width="500" height="275" alt="Screenshot 2025-07-27 030357" src="https://github.com/user-attachments/assets/fbac824b-7e89-4367-b427-cd591ce0c385" />
+
+
+---
+
+### 5️⃣ Heat Sink Settings (Optional Block)
+
+- Not applied in this design  
+- Instead, **convection and radiation boundaries** were used for thermal simulation
+- Turbo mode dissipates more power 
+
+---
+
+### 6️⃣ Boundary Conditions and Mesh
+
+- **Mesh type:** Tetrahedral  
+- **Mesh control:** Applied at component boundaries for die and substrate  
+- **Thermal boundaries:**  
+  - Bottom face set to **natural convection**  
+  - Remaining faces as **symmetry planes (if full model not used)**  
+- **Power applied to die:** ~1 W (can be configured from Source settings)
+
+---
+
+### 7️⃣ Material Properties Overview
+
+| Component     | Material         | Notes                              |
+|---------------|------------------|-------------------------------------|
+| Die           | Silicon          | Heat source                         |
+| Substrate     | BT/Epoxy or FR-4 | High thermal resistance             |
+| Trace         | Cu-Pure          | High electrical/thermal conductivity |
+| Die Attach    | SAC305           | Thermally conductive solder paste  |
+| Solder Balls  | Pb50_Sn50        | Good thermal & electrical transfer |
+
+---
+
+## 🧩 Final 3D Package Model Structure : 
+
+After providing  all the required information , we will generate the package model . 
+
+<img width="600" height="219" alt="Screenshot 2025-07-27 030647" src="https://github.com/user-attachments/assets/ed52985c-5629-4177-b7cc-df8a8db040b7" />
+<img width="250" height="113" alt="Screenshot 2025-07-27 030707" src="https://github.com/user-attachments/assets/0270d97e-7f8a-44f2-9503-2ccb0acaeaec" />
+
+
+
+### 🧱 Model Tree Breakdown
+
+This section describes each group and subcomponent shown in the Ansys Model Tree:
+
+#### 🔹 `Flipchip_BGA1_Group`
+- This is the **top-level assembly** representing the entire Flip Chip BGA package.
+- It contains all key sub-blocks: die, underfill, substrate, traces, and more.
+
+#### 🔹 `Flipchip_BGA1_ball_Group`
+- Represents the **solder ball array**.
+- Includes **14 × 14 grid** of solder balls (excluding central regions depending on pad layout).
+- Each ball is modeled as a 3D thermal-solid element with **Solder-pb50_sn50** material.
+
+#### 🔹 `Solids`
+- This node contains solid bodies of the die, substrate, solder balls, and underfill.
+- These solids interact thermally and structurally.
+
+#### 🔹 `Sheets → Conducting Plate → Flipchip_BGA1_trace`
+- Contains **trace geometries** on the substrate layer.
+- Traces are generated using the `CreateRectangle` command and are covered using `CoverLines`.
+- **Material:** Cu-Pure
+- **Trace thickness:** 0.033 mm
+- **Trace coverage:** 55%
+
+#### 🔹 `Source`
+- This defines the **heat generation** in the model.
+- The die has a **2D source** applied, corresponding to internal power dissipation (in watts).
+
+#### 🔹 `air`
+- The air domain encloses the entire model in a **conduction-convection environment**.
+- Used for proper boundary condition setup for thermal simulations.
+
+#### 🔹 `Region`
+- Defines the **computational region** for meshing and simulation.
+
+#### 🔹 `Coordinate Systems`
+- Default global coordinate system and any additional user-defined systems for positioning components.
+
+---
+
+### 🧊 Visual Representation Summary
+
+The visual model (as seen in the image) clearly shows:
+- A **gray rectangular Die** placed at the center.
+- A **brown Substrate** underneath with embedded trace layers.
+- An invisible underfill (modeled but not shown here).
+- The full BGA solder ball array (not displayed in the cut view).
+- Red boundary outlines representing the **air region and symmetry boundaries**.
 
 
 
