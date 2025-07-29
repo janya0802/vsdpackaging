@@ -13,7 +13,7 @@ The primary goal of this lecture is to understand **why and how we build a virtu
 The specific objective of the model is:
 - To **create a virtual representation** of the **entire package stack-up** — starting from the **die** all the way to the **molding compound**.
 
-<img width="1161" height="626" alt="image" src="https://github.com/user-attachments/assets/5cab318d-2a31-493a-b020-dd39a6741636" />
+<img width="500" height="226" alt="image" src="https://github.com/user-attachments/assets/5cab318d-2a31-493a-b020-dd39a6741636" />
 
 ---
 
