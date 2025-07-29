@@ -12,7 +12,7 @@ Testing is **crucial for yield improvement**, as it helps identify defective pac
 
 ### ⚖️ Testing at Different Stages
 
-<img width="2940" height="1328" alt="image" src="https://github.com/user-attachments/assets/d315e4b0-cef5-4b63-8a46-a608831629ca" />
+<img width="500" height="226" alt="Mod4 1" src="https://github.com/user-attachments/assets/0ceb14ca-3e3e-4a17-bc7d-3866b1cdf971" />
 
 
 Testing is typically divided between two major operational environments:
@@ -42,7 +42,7 @@ These stages allow continuous monitoring of device quality and functionality at 
 
 ---
 
-### 📚 Part 2: Testing Area Overview
+### ⚖️  Testing Area Overview
 
 <img width="691" height="193" alt="image" src="https://github.com/user-attachments/assets/c203b461-e04a-4aff-89d2-c77bc2113c20" />
 
