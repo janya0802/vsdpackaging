@@ -95,7 +95,7 @@ This GitHub repository provides a detailed breakdown of Lecture 16 from Module 4
 
 ### 1. **AOST - Assembly Open and Short Test**
 
-<img width="2940" height="1656" alt="image" src="https://github.com/user-attachments/assets/ab52aabe-2389-4bcc-9143-7b929c63fe94" />
+<img width="1000" height="563" alt="ASOT TEST" src="https://github.com/user-attachments/assets/429c5a74-d9a1-4d96-8a01-4b73d7417995" />
 
 **Objective**: Quick detection of shorts or opens on package leads or balls.
 
@@ -127,7 +127,8 @@ This GitHub repository provides a detailed breakdown of Lecture 16 from Module 4
 
 ### 2. **Burn-in Test**
 
-<img width="2938" height="1654" alt="image" src="https://github.com/user-attachments/assets/65f36345-03bd-4d83-a58e-4ab716b7a023" />
+<img width="1000" height="563" alt="BURN TEST" src="https://github.com/user-attachments/assets/0f26e533-0046-4688-8b79-b0674d28eae9" />
+
 
 
 **Objective**: Stress testing components under extreme conditions (voltage, temperature, cycling) to catch early-life failures (infant mortality).
@@ -155,7 +156,8 @@ This GitHub repository provides a detailed breakdown of Lecture 16 from Module 4
 
 ### 3. **Final Test**
 
-<img width="2940" height="1654" alt="image" src="https://github.com/user-attachments/assets/0dc6b30a-424a-4145-90f8-288b36405a8e" />
+<img width="1000" height="563" alt="FINAL TEST" src="https://github.com/user-attachments/assets/cbc899b5-6e64-4130-9e3b-f9f25ffd0e4b" />
+
 
 
 **Objective**: Validate that the product meets all functional and parametric specifications across temperature ranges.
@@ -177,7 +179,7 @@ This GitHub repository provides a detailed breakdown of Lecture 16 from Module 4
 
 ## ⚙️ ATE – Automatic Test Equipment
 
-<img width="2940" height="1648" alt="image" src="https://github.com/user-attachments/assets/2dd5363a-e8f7-44b4-b7c9-eaeda82377ee" />
+![Uploading SUMMARY.png…]()
 
 
 ### 🧠 Function:
