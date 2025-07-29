@@ -85,23 +85,141 @@ This lecture emphasized the **multi-stage approach to testing** in semiconductor
 
 ---
 
+# Lecture 16: Semiconductor Device Testing
+
+This GitHub repository provides a detailed breakdown of Lecture 16 from Module 4, focusing on semiconductor device testing methods, including AOST, Burn-in, Final Test, and Automatic Test Equipment (ATE).
+
+---
+
+## 📌 Main Testing Phases
+
+### 1. **AOST - Assembly Open and Short Test**
+
+<img width="2940" height="1656" alt="image" src="https://github.com/user-attachments/assets/ab52aabe-2389-4bcc-9143-7b929c63fe94" />
+
+**Objective**: Quick detection of shorts or opens on package leads or balls.
+
+#### 🧪 Procedure:
+
+* Performed immediately after *Trim and Form* (for lead frame packages) or *Singulation* (for BGA packages).
+* Devices are tested for massive electrical failures before leaving the assembly line.
+* Uses a combination of:
+
+  * Electrical test to find shorts or opens.
+  * Vision inspection to detect:
+
+    * Damaged or missing balls or leads
+    * Defects like die cracks, bridging, non-wet opens (NWO), or head-on-pillow (HoP)
+
+#### 🧹 Sorting:
+
+* Product Grade Sort (PGSRT):
+
+  * **Grade 1**: Best
+  * **Grade 2-3**: Better
+  * **Grade 4**: Scrap
+
+#### 🔍 Example Defects:
+
+* Short, open, die crack, head on pillow (HoP), non-wet open (NWO)
+
+---
+
+### 2. **Burn-in Test**
+
+<img width="2938" height="1654" alt="image" src="https://github.com/user-attachments/assets/65f36345-03bd-4d83-a58e-4ab716b7a023" />
+
+
+**Objective**: Stress testing components under extreme conditions (voltage, temperature, cycling) to catch early-life failures (infant mortality).
+
+#### 🔥 Conditions:
+
+* High temperature and voltage stress
+* Stress is applied using Burn-in boards placed inside ovens
+
+#### 🧩 Key Points:
+
+* Detects early defects like dielectric breakdown, metallization faults, and electromigration
+* Test duration: long enough to catch early failures but stops before the useful life period
+* Devices that fail here are discarded, increasing final reliability
+
+#### ⚠️ Note:
+
+* While it enhances reliability by eliminating weak parts, the total lifespan of stressed parts can slightly reduce
+
+#### 📈 Failure Rate Curve:
+
+* Early failure (Infant Mortality) → Stable Useful Life → Wear Out
+
+---
+
+### 3. **Final Test**
+
+<img width="2940" height="1654" alt="image" src="https://github.com/user-attachments/assets/0dc6b30a-424a-4145-90f8-288b36405a8e" />
+
+
+**Objective**: Validate that the product meets all functional and parametric specifications across temperature ranges.
+
+#### 🌡️ Tests Conducted:
+
+* **Hot Test**: High-temperature electrical validation
+* **Cold Test**: Low-temperature electrical validation
+
+#### 🧪 Test Setup:
+
+* Parts are loaded into an ATE handler with temperature-controlled test fixtures (not ovens)
+
+#### 📊 Example:
+
+* LM741 OPAMP spec sheet is used to verify performance across electrical parameters like offset voltage, bias current, input/output ranges, etc.
+
+---
+
+## ⚙️ ATE – Automatic Test Equipment
+
+<img width="2940" height="1648" alt="image" src="https://github.com/user-attachments/assets/2dd5363a-e8f7-44b4-b7c9-eaeda82377ee" />
+
+
+### 🧠 Function:
+
+ATE automates test signal generation and analysis for devices under test (DUT).
+
+### 🔍 Components:
+
+* Handler: Places DUTs into position
+* ATE Unit: Sends test patterns (via ATPG)
+* ICT Stations, COBOTs: Support precise, high-throughput testing
+
+---
+
+## 🧪 Major ATE Test Categories
+
+### ✅ 1. Parametric Tests
+
+* Measures voltage or current
+* Ensures circuit operates within electrical specifications
+
+### 🧪 2. Functional Tests
+
+* Verifies actual functionality under operational conditions
+
+### ⏱️ 3. Speed Tests
+
+* Evaluates response time of device based on datasheet
+* Sorting based on performance speed is common
+
+---
+
+## 🧾 Performance Indicators in Testing
+
+* **Yield**: % of good devices out of total tested
+* **Test Time**: Time taken per DUT
+* **Test Coverage**: % of functions and parameters tested
+
+---
 
 
 
 
-3 main test - <img width="910" height="409" alt="image" src="https://github.com/user-attachments/assets/8ba93a40-4c54-474b-8adb-c10077711d3f" />
 
-aost test <img width="1890" height="1044" alt="image" src="https://github.com/user-attachments/assets/c91fd4d0-25cf-418f-b5d6-31f258e96bac" />
-
-
-lecture 16 
-
-aost test <img width="1890" height="1044" alt="image" src="https://github.com/user-attachments/assets/c91fd4d0-25cf-418f-b5d6-31f258e96bac" />
-
-
-burn in test <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b2ece708-d329-4674-973f-442600a5a424" />
-
-final test <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e28699f-703a-46e8-b154-b86070bf0fd5" />
-
-ate and test category <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/98337b4f-1745-4621-a20e-2fb97daccf63" />
 
