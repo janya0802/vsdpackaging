@@ -262,7 +262,7 @@ Packaging technologies can be classified based on the carrier material and integ
 
 ### 1. 🪛 Leadframe Packages
 
-<img width="511" height="623" alt="image" src="https://github.com/user-attachments/assets/326432c5-66c9-4b9a-b782-245b5e3c09a2" />
+<img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/326432c5-66c9-4b9a-b782-245b5e3c09a2" />
 
 
 A metallic frame (usually copper alloy) used as the carrier.
@@ -276,7 +276,7 @@ A metallic frame (usually copper alloy) used as the carrier.
 
 ### 2. 🎯 Laminate Substrate Packages
 
-<img width="380" height="623" alt="image" src="https://github.com/user-attachments/assets/9c64015c-4109-496e-aac0-355f0892be50" />
+<img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/9c64015c-4109-496e-aac0-355f0892be50" />
 
 
 An organic substrate (like BT resin) with multiple copper layers.
@@ -291,7 +291,7 @@ An organic substrate (like BT resin) with multiple copper layers.
 
 ### 3. 🚀 Advanced Package Substrate
 
-<img width="380" height="600" alt="image" src="https://github.com/user-attachments/assets/72955fd2-10f5-4397-8c35-0ec64a99a1aa" />
+<img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/72955fd2-10f5-4397-8c35-0ec64a99a1aa" />
 
 
 Used for multi-chip and high-density systems, offering better routing and performance.
