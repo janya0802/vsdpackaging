@@ -95,7 +95,7 @@ This GitHub repository provides a detailed breakdown of Lecture 16 from Module 4
 
 ### 1. **AOST - Assembly Open and Short Test**
 
-<img width="1000" height="563" alt="ASOT TEST" src="https://github.com/user-attachments/assets/429c5a74-d9a1-4d96-8a01-4b73d7417995" />
+<img width="500" height="226" alt="ASOT TEST" src="https://github.com/user-attachments/assets/429c5a74-d9a1-4d96-8a01-4b73d7417995" />
 
 **Objective**: Quick detection of shorts or opens on package leads or balls.
 
@@ -127,7 +127,7 @@ This GitHub repository provides a detailed breakdown of Lecture 16 from Module 4
 
 ### 2. **Burn-in Test**
 
-<img width="1000" height="563" alt="BURN TEST" src="https://github.com/user-attachments/assets/0f26e533-0046-4688-8b79-b0674d28eae9" />
+<img width="500" height="226" alt="BURN TEST" src="https://github.com/user-attachments/assets/0f26e533-0046-4688-8b79-b0674d28eae9" />
 
 
 
@@ -156,7 +156,7 @@ This GitHub repository provides a detailed breakdown of Lecture 16 from Module 4
 
 ### 3. **Final Test**
 
-<img width="1000" height="563" alt="FINAL TEST" src="https://github.com/user-attachments/assets/cbc899b5-6e64-4130-9e3b-f9f25ffd0e4b" />
+<img width="500" height="226" alt="FINAL TEST" src="https://github.com/user-attachments/assets/cbc899b5-6e64-4130-9e3b-f9f25ffd0e4b" />
 
 
 
@@ -179,7 +179,8 @@ This GitHub repository provides a detailed breakdown of Lecture 16 from Module 4
 
 ## ⚙️ ATE – Automatic Test Equipment
 
-![Uploading SUMMARY.png…]()
+<img width="500" height="226" alt="image" src="https://github.com/user-attachments/assets/5efab714-b113-4813-921d-2756ec73ff88" />
+
 
 
 ### 🧠 Function:
