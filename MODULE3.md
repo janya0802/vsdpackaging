@@ -298,5 +298,70 @@ We use the **Monitor** tab to observe how temperature changes at critical locati
 
 ---
 
+LECTURE 13 ##  Meshing And Running The Thermal Analysis  
+5. Generate Mesh  
+6. Review Mesh Quality metrics  
+
+*Mesh Quality - Face Alignment*
+<p allign="center">
+  <img src="./MOD3/Mod3.12.png" width="700">
+</p>
+
+*Mesh Quality - Skewness*
+<p allign="center">
+  <img src="./MOD3/Mod3.13.png" width="700">
+</p>
+
+*Mesh Quality - Volume*
+<p allign="center">
+  <img src="./MOD3/Mod3.14.png" width="700">
+</p>
+
+7. Add Thermal Analysis
+Under "Project Manager", right click on "Analysis and select Add Analysis Setup" and configure the settings as required.
+<p allign="center">
+  <img src="./MOD3/Mod3.15.png" width="700">
+</p>
+
+## LECTURE 14  Viewing Results And Exploring Other Package Types  
+1. Validate the Simulation setup
+   
+ * Click on the "Validate" button in the top
+   
+ * Ensure all checks are validated
+   
+<p allign="center">
+  <img src="./MOD3/Mod3.16.png" width="700">
+</p>  
+2. Run the simulation and plot the temperature map
+
+ * Click on "Analyze All" button in the top
+   
+ * Wait for the simulation to get completed
+   
+ * After the simulation is completed, select the complete FC-BGA package by drawing a rectangle using the left-click button.
+   
+ * Right click and then select "Plot Fields -> Temperature -> Temperature"
+   
+ * Click on the different plot options:
+   
+  a.Specify Name and Folder
+
+  b.Plot on Surface only
+
+  c.Surface Smoothing and click on "Enable Gaussian Smoothing"
+   
+<p allign="center">
+  <img src="./MOD3/Mod3.17.png" width="700">
+</p>
+<p allign="center">
+  <img src="./MOD3/Mod3.18.png" width="700">
+</p>
+<p allign="center">
+  <img src="./MOD3/Mod3.19.png" width="700">
+</p>
+<p allign="center">
+  <img src="./MOD3/Mod3.20.png" width="700">
+</p>
 
 
