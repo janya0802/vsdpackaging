@@ -298,41 +298,36 @@ We use the **Monitor** tab to observe how temperature changes at critical locati
 
 ---
 
-LECTURE 13 ##  Meshing And Running The Thermal Analysis  
+LECTURE 13📍 ##  Meshing And Running The Thermal Analysis  
 5. Generate Mesh  
 6. Review Mesh Quality metrics  
 
 *Mesh Quality - Face Alignment*
-<p allign="center">
-  <img src="./MOD3/Mod3.12.png" width="700">
-</p>
+<img width="1660" height="894" alt="image" src="https://github.com/user-attachments/assets/84011499-e9b4-4776-95b1-ee73085c4903" />
+
 
 *Mesh Quality - Skewness*
-<p allign="center">
-  <img src="./MOD3/Mod3.13.png" width="700">
-</p>
+<img width="1664" height="896" alt="image" src="https://github.com/user-attachments/assets/93f2e79f-bf8a-4572-aed7-57b99aedab92" />
+
 
 *Mesh Quality - Volume*
-<p allign="center">
-  <img src="./MOD3/Mod3.14.png" width="700">
-</p>
+<img width="1672" height="942" alt="image" src="https://github.com/user-attachments/assets/4f5b2ddf-3b2d-473e-9b22-a64259375b23" />
+
 
 7. Add Thermal Analysis
 Under "Project Manager", right click on "Analysis and select Add Analysis Setup" and configure the settings as required.
-<p allign="center">
-  <img src="./MOD3/Mod3.15.png" width="700">
-</p>
+<img width="1612" height="864" alt="image" src="https://github.com/user-attachments/assets/51f89732-d9da-444d-94b3-e4c4431894be" />
 
-## LECTURE 14  Viewing Results And Exploring Other Package Types  
+
+## LECTURE 14📍  Viewing Results And Exploring Other Package Types  
 1. Validate the Simulation setup
    
  * Click on the "Validate" button in the top
    
  * Ensure all checks are validated
    
-<p allign="center">
-  <img src="./MOD3/Mod3.16.png" width="700">
-</p>  
+<img width="1614" height="860" alt="image" src="https://github.com/user-attachments/assets/9f9f1e74-ad4f-4e3b-b966-4e7554f1aa32" />
+
 2. Run the simulation and plot the temperature map
 
  * Click on "Analyze All" button in the top
@@ -351,17 +346,7 @@ Under "Project Manager", right click on "Analysis and select Add Analysis Setup"
 
   c.Surface Smoothing and click on "Enable Gaussian Smoothing"
    
-<p allign="center">
-  <img src="./MOD3/Mod3.17.png" width="700">
-</p>
-<p allign="center">
-  <img src="./MOD3/Mod3.18.png" width="700">
-</p>
-<p allign="center">
-  <img src="./MOD3/Mod3.19.png" width="700">
-</p>
-<p allign="center">
-  <img src="./MOD3/Mod3.20.png" width="700">
-</p>
-
+<img width="1612" height="864" alt="image" src="https://github.com/user-attachments/assets/f6408dd2-81af-4d89-9cfe-1428cd179fc8" />
+<img width="1616" height="914" alt="image" src="https://github.com/user-attachments/assets/d676dc8f-59ae-4f57-8f2a-dead009d24ff" />
+<img width="1610" height="860" alt="image" src="https://github.com/user-attachments/assets/5d686994-692d-4dcd-bab1-f68a4975123f" />
 
